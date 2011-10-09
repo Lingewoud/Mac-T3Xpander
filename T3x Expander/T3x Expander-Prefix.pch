@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'T3x Expander' target in the 'T3x Expander' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
