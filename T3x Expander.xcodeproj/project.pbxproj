@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3131F31444E5F000609C20 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3131F11444E5C800609C20 /* CoreFoundation.framework */; };
 		3E667B57143D0EC100BF2952 /* dropzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E667B56143D0EC100BF2952 /* dropzone.png */; };
 		3E667B5B143D0FED00BF2952 /* TEDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E667B5A143D0FED00BF2952 /* TEDropZone.m */; };
 		3E86C1381353A9BB002F9DBE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E86C1371353A9BB002F9DBE /* Cocoa.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3131F11444E5C800609C20 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		3E667B56143D0EC100BF2952 /* dropzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropzone.png; sourceTree = "<group>"; };
 		3E667B59143D0FED00BF2952 /* TEDropZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEDropZone.h; sourceTree = "<group>"; };
 		3E667B5A143D0FED00BF2952 /* TEDropZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDropZone.m; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E86C1381353A9BB002F9DBE /* Cocoa.framework in Frameworks */,
+				3E3131F31444E5F000609C20 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 		3E86C1391353A9BB002F9DBE /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E3131F11444E5C800609C20 /* CoreFoundation.framework */,
 				3E86C13A1353A9BB002F9DBE /* AppKit.framework */,
 				3E86C13B1353A9BB002F9DBE /* CoreData.framework */,
 				3E86C13C1353A9BB002F9DBE /* Foundation.framework */,
