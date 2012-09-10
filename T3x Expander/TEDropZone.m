@@ -89,12 +89,18 @@
         NSArray *files = [pboard propertyListForType:NSFilenamesPboardType];
         int numberOfFiles = [files count];
         
-        if ([[[files objectAtIndex:0] pathExtension] isEqual:@"t3x"]){
-            [TEUnpackT3x unpackT3xFile:[files lastObject]];
-        } else {
-            return NO;
+        if(numberOfFiles>0)
+        {
+            if ([[[files objectAtIndex:0] pathExtension] isEqual:@"t3x"]){
+                [TEUnpackT3x unpackT3xFile:[files lastObject]];
+                return YES;
+            } else {
+                return NO;
+            }
         }
     }
+    return YES;
+
 }
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E3131F31444E5F000609C20 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3131F11444E5C800609C20 /* CoreFoundation.framework */; };
+		3E6440DE15FE124200680403 /* t3x.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3E6440DD15FE124200680403 /* t3x.icns */; };
 		3E667B57143D0EC100BF2952 /* dropzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E667B56143D0EC100BF2952 /* dropzone.png */; };
 		3E667B5B143D0FED00BF2952 /* TEDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E667B5A143D0FED00BF2952 /* TEDropZone.m */; };
 		3E86C1381353A9BB002F9DBE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E86C1371353A9BB002F9DBE /* Cocoa.framework */; };
@@ -17,6 +18,7 @@
 		3E86C14B1353A9BB002F9DBE /* T3x_ExpanderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E86C14A1353A9BB002F9DBE /* T3x_ExpanderAppDelegate.m */; };
 		3E86C16C1353A9D1002F9DBE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E86C16B1353A9D1002F9DBE /* MainMenu.xib */; };
 		3E86C16E1353AA00002F9DBE /* Typo3_logo_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E86C16D1353AA00002F9DBE /* Typo3_logo_color.png */; };
+		3EBE9C9615FE226C000F7324 /* t3x.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3EBE9C9515FE226C000F7324 /* t3x.icns */; };
 		3EE8BCE814423C780037ECBA /* expandt3x in Resources */ = {isa = PBXBuildFile; fileRef = 3EE8BCE714423C780037ECBA /* expandt3x */; };
 		3EE8BCF114423D8F0037ECBA /* TEUnpackT3x.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8BCF014423D8F0037ECBA /* TEUnpackT3x.m */; };
 		3EE8BCF7144248570037ECBA /* t3x-expand-v1.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3EE8BCF6144248570037ECBA /* t3x-expand-v1.icns */; };
@@ -25,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		3E3131F11444E5C800609C20 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3E6440DD15FE124200680403 /* t3x.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = t3x.icns; sourceTree = "<group>"; };
 		3E667B56143D0EC100BF2952 /* dropzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropzone.png; sourceTree = "<group>"; };
 		3E667B59143D0FED00BF2952 /* TEDropZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEDropZone.h; sourceTree = "<group>"; };
 		3E667B5A143D0FED00BF2952 /* TEDropZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDropZone.m; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		3E86C14A1353A9BB002F9DBE /* T3x_ExpanderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T3x_ExpanderAppDelegate.m; sourceTree = "<group>"; };
 		3E86C16B1353A9D1002F9DBE /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		3E86C16D1353AA00002F9DBE /* Typo3_logo_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Typo3_logo_color.png; sourceTree = "<group>"; };
+		3EBE9C9515FE226C000F7324 /* t3x.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = t3x.icns; sourceTree = "<group>"; };
 		3EE8BCE714423C780037ECBA /* expandt3x */ = {isa = PBXFileReference; lastKnownFileType = folder; path = expandt3x; sourceTree = "<group>"; };
 		3EE8BCEF14423D8F0037ECBA /* TEUnpackT3x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEUnpackT3x.h; sourceTree = "<group>"; };
 		3EE8BCF014423D8F0037ECBA /* TEUnpackT3x.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEUnpackT3x.m; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 		3E86C1281353A9BB002F9DBE = {
 			isa = PBXGroup;
 			children = (
+				3EBE9C9515FE226C000F7324 /* t3x.icns */,
+				3E6440DD15FE124200680403 /* t3x.icns */,
 				3EE8BCF8144248A00037ECBA /* t3x-expand-v1.icns */,
 				3E86C13D1353A9BB002F9DBE /* T3x Expander */,
 				3E86C1361353A9BB002F9DBE /* Frameworks */,
@@ -189,6 +195,8 @@
 				3EE8BCE814423C780037ECBA /* expandt3x in Resources */,
 				3EE8BCF7144248570037ECBA /* t3x-expand-v1.icns in Resources */,
 				3EE8BCF9144248A00037ECBA /* t3x-expand-v1.icns in Resources */,
+				3E6440DE15FE124200680403 /* t3x.icns in Resources */,
+				3EBE9C9615FE226C000F7324 /* t3x.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "T3x Expander/T3x Expander-Prefix.pch";
 				INFOPLIST_FILE = "T3x Expander/T3x Expander-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,7 +294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "T3x Expander/T3x Expander-Prefix.pch";
 				INFOPLIST_FILE = "T3x Expander/T3x Expander-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

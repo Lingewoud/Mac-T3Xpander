@@ -4,6 +4,21 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>t3x</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>t3x.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>TYPO3 Extension Package</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -30,5 +45,23 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeDescription</key>
+			<string>TYPO3 Extension Package</string>
+			<key>UTTypeIconFile</key>
+			<string>t3x.icns</string>
+			<key>UTTypeIdentifier</key>
+			<string>org.typo3.t3x-archive</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>t3x</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>

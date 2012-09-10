@@ -16,7 +16,7 @@
 
 - (IBAction)openTypo3ExtensionReposotory:(id)sender;
 - (IBAction)openT3ExpanderWebsite:(id)sender;
-
+- (IBAction)sendFileButtonAction:(id)sender;
 
 
 @property (assign) IBOutlet NSWindow *window;
