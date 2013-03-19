@@ -5,4 +5,4 @@ Mac-T3Xpander is an OSX/Cocoa drag 'n drop utility for expanding t3x files. T3x 
 
 You can download a compiled version of Mac-T3Xpander at http://www.lapp5.com.
 
-![image]((null)/z2RHpIAODE.png).
+![image](http://picdrop.t3lab.com/81N96NNHPV.png).
